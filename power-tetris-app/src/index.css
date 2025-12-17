@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+@theme {
+  --color-ember-teal: #00a699;
+  --color-ember-dark: #1a1a1a;
+  --color-ember-light: #f4f4f4;
+  --font-sans: Inter, system-ui, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-sans);
+  background-color: #f8fafc;
+  color: #0f172a;
+}

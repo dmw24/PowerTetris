@@ -1,0 +1,122 @@
+{
+  "es": [
+    {
+      "startHour": 8568,
+      "label": "Extreme (Low Renewables)",
+      "weight": 1,
+      "isExtreme": true,
+      "includeInStats": true
+    },
+    {
+      "startHour": 0,
+      "label": "Low Solar (Rep. 6 weeks)",
+      "weight": 6,
+      "includeInStats": true
+    },
+    {
+      "startHour": 7392,
+      "label": "Low Solar, High Wind (Rep. 9 weeks)",
+      "weight": 9,
+      "includeInStats": true
+    },
+    {
+      "startHour": 5880,
+      "label": "Average (Rep. 21 weeks)",
+      "weight": 21,
+      "includeInStats": true
+    },
+    {
+      "startHour": 4032,
+      "label": "High Solar, Low Wind (Rep. 15 weeks)",
+      "weight": 15,
+      "includeInStats": true
+    },
+    {
+      "startHour": -1,
+      "label": "Extreme (Worst since 1980)",
+      "weight": 0.05,
+      "includeInStats": false,
+      "isExtreme": true
+    }
+  ],
+  "gb": [
+    {
+      "startHour": 7896,
+      "label": "Extreme (Low Renewables)",
+      "weight": 1,
+      "isExtreme": true,
+      "includeInStats": true
+    },
+    {
+      "startHour": 1008,
+      "label": "Low Solar, High Wind (Rep. 8 weeks)",
+      "weight": 8,
+      "includeInStats": true
+    },
+    {
+      "startHour": 4872,
+      "label": "High Solar, Low Wind (Rep. 11 weeks)",
+      "weight": 11,
+      "includeInStats": true
+    },
+    {
+      "startHour": 2016,
+      "label": "High Solar, Low Wind (Rep. 15 weeks)",
+      "weight": 15,
+      "includeInStats": true
+    },
+    {
+      "startHour": 336,
+      "label": "Low Solar (Rep. 17 weeks)",
+      "weight": 17,
+      "includeInStats": true
+    },
+    {
+      "startHour": -1,
+      "label": "Extreme (Worst since 1980)",
+      "weight": 0.05,
+      "includeInStats": false,
+      "isExtreme": true
+    }
+  ],
+  "fr": [
+    {
+      "startHour": 7560,
+      "label": "Extreme (Low Renewables)",
+      "weight": 1,
+      "isExtreme": true,
+      "includeInStats": true
+    },
+    {
+      "startHour": 4872,
+      "label": "High Solar, Low Wind (Rep. 17 weeks)",
+      "weight": 17,
+      "includeInStats": true
+    },
+    {
+      "startHour": 840,
+      "label": "Low Solar, High Wind (Rep. 8 weeks)",
+      "weight": 8,
+      "includeInStats": true
+    },
+    {
+      "startHour": 5880,
+      "label": "High Solar, Low Wind (Rep. 11 weeks)",
+      "weight": 11,
+      "includeInStats": true
+    },
+    {
+      "startHour": 672,
+      "label": "Low Solar, High Wind (Rep. 15 weeks)",
+      "weight": 15,
+      "includeInStats": true
+    },
+    {
+      "startHour": -1,
+      "label": "Extreme (Worst since 1980)",
+      "weight": 0.05,
+      "includeInStats": false,
+      "isExtreme": true
+    }
+  ]
+}

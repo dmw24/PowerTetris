@@ -1,0 +1,14 @@
+# Render Blueprint
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: power-tetris
+    runtime: node
+    plan: free
+    rootDir: power-tetris-app
+    buildCommand: npm install && npm run build && cd server && npm install
+    startCommand: cd server && npm start
+    envVars:
+      - key: NODE_ENV
+        value: production

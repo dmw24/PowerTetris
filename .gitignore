@@ -1,0 +1,12 @@
+node_modules/
+.DS_Store
+*.log
+dist/
+.env
+temp_public/
+renewable profiles/
+spain-renewables-app/
+example app/
+analyze_weeks.py
+generate_representative_weeks.py
+process_data.py
