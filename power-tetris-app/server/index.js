@@ -539,7 +539,8 @@ app.get('/api/weeks', (req, res) => {
 });
 
 // Catch-all route for SPA - serve index.html for any non-API routes
-app.get('*', (req, res) => {
+// Express 5 requires named parameters for wildcards
+app.get('/{*splat}', (req, res) => {
     const indexPath = path.join(__dirname, '../dist/index.html');
     if (fs.existsSync(indexPath)) {
         res.sendFile(indexPath);
